@@ -1,5 +1,6 @@
 {
     "name": "sequoialabs/reversia-php-compatibility",
+    "version": "0.0.1",
     "description": "Compatibility layer to expose data to Reversia",
     "type": "library",
     "autoload": {
@@ -13,6 +14,7 @@
             "email": "jean.walrave@gmail.com"
         }
     ],
+    "minimum-stability": "stable",
     "require": {
         "php": ">=5.6"
     },
