@@ -1,0 +1,20 @@
+{
+    "name": "sequoialabs/reversia-php-compatibility",
+    "description": "Compatibility layer to expose data to Reversia",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "SequoiaLabs\\Reversia\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jean Walrave",
+            "email": "jean.walrave@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "license": "MIT"
+}
