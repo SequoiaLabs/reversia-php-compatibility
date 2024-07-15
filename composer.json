@@ -1,6 +1,6 @@
 {
     "name": "sequoialabs/reversia-php-compatibility",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Compatibility layer to expose data to Reversia",
     "type": "library",
     "autoload": {
