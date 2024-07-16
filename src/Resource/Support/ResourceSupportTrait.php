@@ -27,6 +27,11 @@ trait ResourceSupportTrait
         throw new NotImplementedErrorException();
     }
 
+    public function enumerateRelationships()
+    {
+        return null;
+    }
+
     public function getInsertionDiff($previousData, $insertedData)
     {
         $changedFields = [];

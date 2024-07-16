@@ -26,6 +26,13 @@ interface ResourceSupportInterface
     public function getResource(...$args);
 
     /**
+     * Enumerate relationships
+     * 
+     * @return null|array
+     */
+    public function enumerateRelationships();
+
+    /**
      * Get diff between two resources
      * 
      * @param array $insertedData

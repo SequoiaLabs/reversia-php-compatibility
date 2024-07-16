@@ -9,12 +9,11 @@ interface ListableResourceInterface
      * 
      * @param string|null $offset
      * @param string|null $limit
-     * @param array|null $identifiers
      * @param mixed ...$params
      * 
      * @return \Generator
      */
-    public function getList($offset = null, $limit = null, $identifiers = null, ...$params);
+    public function getList($offset = null, $limit = null, ...$params);
 
     /**
      * Get a resource
