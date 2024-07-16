@@ -1,6 +1,6 @@
 <?php
 
-namespace PrestaShop\Module\Reversia\Resource;
+namespace SequoiaLabs\Reversia\Resource\Support;
 
 use SequoiaLabs\Reversia\Exception\NotImplementedErrorException;
 
