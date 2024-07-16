@@ -22,7 +22,7 @@ trait ResourceSupportTrait
         throw new NotImplementedErrorException();
     }
 
-    public static function getResource()
+    public function getResource()
     {
         throw new NotImplementedErrorException();
     }

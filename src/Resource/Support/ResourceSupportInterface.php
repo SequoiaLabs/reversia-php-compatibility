@@ -5,22 +5,6 @@ namespace SequoiaLabs\Reversia\Resource\Support;
 interface ResourceSupportInterface
 {
     /**
-     * Is resource supported
-     * 
-     * @return bool
-     */
-    public function isSupported();
-
-    /**
-     * Get the resource label
-     * 
-     * @param string $locale
-     * 
-     * @return string
-     */
-    public static function getLabel($locale);
-
-    /**
      * Get the resource type
      * 
      * @return string
